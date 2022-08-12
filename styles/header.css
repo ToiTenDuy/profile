@@ -1,0 +1,69 @@
+.header{
+  background-color: white;
+  font-family:'Roboto Slab', serif;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+}
+
+.NKD-1{
+  width: 280px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  margin-top: 33px;
+  margin-left: 192px;
+
+  cursor: pointer;/*Thay đổi con trỏ chuột khi di chuyển tới từ NKD*/
+  
+}
+
+.NKD-1:hover{
+  transform: scale(1.1);
+}
+
+.right-header{
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+
+
+  padding-top: 42px;
+  padding-right: 200px;
+  justify-content: center;
+}
+
+.tiktok-header{
+  margin-left: 40px;
+  margin-right: 40px;
+
+  cursor:pointer;
+}
+.facebook-header{
+  cursor: pointer;
+}
+.instagram-header{
+  cursor: pointer;
+}
+.tiktok-header:hover,
+.facebook-header:hover,
+.instagram-header:hover{
+  opacity: 0.7;
+}
+
+.tiktok-header a,
+.facebook-header a,
+.instagram-header a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
